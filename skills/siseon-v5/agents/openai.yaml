@@ -1,0 +1,4 @@
+interface:
+  display_name: "시선 · V5 제품 설계"
+  short_description: "시선의 세계관을 궤적 UX, 의료진 확인, 실증으로 연결합니다"
+  default_prompt: "$siseon-v5를 사용해 시선의 W→M1→M3 연속 경험을 설계하고 구현해 줘."

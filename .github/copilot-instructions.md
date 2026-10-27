@@ -1,0 +1,1 @@
+Read the repository's `AGENTS.md`, `docs/AI-HANDOFF.md` and `docs/DEVELOPMENT.md` before editing. Preserve the 3D introduction, CG Invites logo, ko/zh/en localization and continuous W→M1→M3→W trajectory. Keep clinical gates in the reducer and run `npm run verify`. GitHub CI verifies but does not deploy production.

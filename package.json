@@ -1,0 +1,16 @@
+{
+  "name": "siseon",
+  "version": "0.5.0-demo",
+  "private": true,
+  "type": "module",
+  "description": "CG Invites · 시선 / 见线 / SEE;LINE continuous life-trajectory demo",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/care-model.test.mjs tests/i18n.test.mjs tests/serve.test.mjs",
+    "verify": "npm run check && npm test",
+    "package:demo": "python3 scripts/package-demo.py"
+  }
+}
