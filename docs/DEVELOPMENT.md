@@ -66,7 +66,7 @@ git switch -c feature/my-change
 npm run verify
 ```
 
-`demo-2026-10-28`은 내일 시연용 고정 기록이다. 수정하거나 강제 이동하지 않는다. 시연본만 따로 확인하려면 별도 폴더에 `git clone --branch demo-2026-10-28 https://github.com/jangjumyoeng/siseon.git siseon-demo-20261028`을 사용한다. 기존 작업 폴더의 미커밋 변경을 버리면서 체크아웃하지 않는다.
+`demo-2026-10-28`은 내일 시연용 고정 기록이다. 수정하거나 강제 이동하지 않는다. 시연본만 따로 확인하려면 별도 폴더에 `git clone --branch demo-2026-10-28 https://github.com/JangJuMyeong/seeson.git siseon-demo-20261028`을 사용한다. 기존 작업 폴더의 미커밋 변경을 버리면서 체크아웃하지 않는다.
 
 ## GitHub와 배포 사이트의 관계
 

@@ -6,7 +6,7 @@ CG Invites / 인바이츠루프 V5의 3D 인터랙티브 시연. 수많은 선�
 
 ![Chinese 3D introduction](docs/media/intro-zh.png)
 
-## 내일 시연 / Quick start
+## 2026-10-28 시연 / Quick start
 
 - 시연일: **2026-10-28 (한국 시간)**
 - 고정 스냅샷: **`demo-2026-10-28`** 태그
@@ -16,8 +16,8 @@ CG Invites / 인바이츠루프 V5의 3D 인터랙티브 시연. 수많은 선�
 Node.js 22 이상이 설치되어 있으면:
 
 ```sh
-git clone https://github.com/jangjumyoeng/siseon.git
-cd siseon
+git clone https://github.com/JangJuMyeong/seeson.git
+cd seeson
 npm run dev
 ```
 
@@ -31,7 +31,7 @@ npm run dev
 
 macOS는 `run-demo.command`, Windows는 `run-demo.bat`로도 실행할 수 있다. 실행기는 Node를 먼저 사용하고, 없으면 Python 3로 정적 파일을 제공한다. 라이브러리와 로고가 동봉되어 시연 중 CDN을 요구하지 않는다. 지침 원문 링크를 여는 동작에는 인터넷이 필요하다.
 
-GitHub 저장소와 기존 배포 사이트는 비공개다. 다른 계정에는 각 서비스에서 접근 권한이 별도로 필요하다. 중국 현지 네트워크와 실기기 검증은 미실시다. 계정 없이 전달할 때는 소유자가 소스 패키지를 전달해 로컬에서 실행할 수 있다.
+GitHub 저장소는 사용자가 지정한 공개 저장소 `JangJuMyeong/seeson`이다. 기존 배포 사이트는 비공개이며 사이트 접근 권한은 별도다. 중국 현지 네트워크와 실기기 검증은 미실시다. 계정 없이 전달할 때는 소유자가 소스 패키지를 전달해 로컬에서 실행할 수 있다.
 
 ## 다른 AI와 이어서 개발
 
