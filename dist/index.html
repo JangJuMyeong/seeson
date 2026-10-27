@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05070e"><meta name="description" content="수많은 가능성 속에서 나의 선을 찾다. 시선(see;線)의 몰입형 3D 선택 경험.">
+<title>시선 see;線 — 선택이 길이 되는 순간</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="universe" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+<header class="header">
+ <div class="brand-lockup"><a class="wordmark" href="#" id="home" aria-label="시선 처음으로"><span>시선<span class="brand-dot">.</span></span><small>see;線</small></a><span class="brand-origin"><span>by</span><img src="./assets/cg-invites-white.png" alt="CG Invites" width="170" height="60"></span></div>
+ <div class="header-right"><span class="tagline">DESIGNING YOUR LIFE,<br>BEYOND TIME.</span><button id="motion" class="icon-button" aria-pressed="false" aria-label="움직임 멈추기"><span class="pause-glyph">Ⅱ</span></button><button id="restart" class="text-button">처음으로 <span>↗</span></button></div>
+</header>
+<main id="experience" data-stage="intro">
+ <section class="copy" aria-live="polite" aria-atomic="true">
+  <div class="eyebrow"><span class="live-dot"></span><span id="chapter">A LIFE, CONNECTED</span></div>
+  <h1 id="headline">수많은 가능성.<br><span class="soft">나에게 이어지는</span><br>하나의 선.</h1>
+  <p id="description">흩어진 시간과 선택이 하나로 이어질 때,<br>나의 내일은 새로운 방향을 갖습니다.</p>
+  <div id="primary-actions"><button id="enter" class="primary">나의 선을 찾다 <span>↗</span></button><button id="skip" class="subtle">인트로 건너뛰기</button></div>
+  <button id="back" class="back-button" hidden>← 이전 선택</button>
+ </section>
+ <div id="universe-label"><span class="cross">+</span><span>EVERY LINE IS A POSSIBILITY</span><span class="hairline"></span></div>
+ <div id="choices" aria-label="선택 가능한 경로" hidden></div>
+ <aside id="selection-note" hidden><span class="note-dot"></span><span id="note-text"></span></aside>
+ <div id="journey" hidden><div class="journey-header">MY CONTINUOUS LINE <span>선택은 이어집니다</span></div><ol id="history"></ol><div class="next-step"><span>다음 한 걸음</span><p>이 선택을 의료진과 함께 확인할<br>질문으로 남겨 볼까요?</p><button id="save-question">내 선에 질문 남기기 <span>↗</span></button></div><p id="saved-question" hidden></p><button id="continue" class="text-button">다음 선택으로 이어가기 →</button></div>
+ <div id="transition-copy" aria-hidden="true"><span></span></div>
+ <div id="fallback" hidden><span>가벼운 화면으로 이어갑니다</span><p>선택의 흐름은 그대로 경험할 수 있어요.</p></div>
+</main>
+<footer class="footer"><nav aria-label="경험의 흐름"><span data-phase="0" class="active"><i>01</i> 연결</span><b></b><span data-phase="1"><i>02</i> 선택</span><b></b><span data-phase="2"><i>03</i> 나의 선</span></nav><div class="footer-right"><span id="interaction-hint">움직여 둘러보세요 <span>↔</span></span><button id="about">CONCEPT DEMO <span>ⓘ</span></button></div></footer>
+<dialog id="about-dialog"><button id="close-about" class="dialog-close" aria-label="설명 닫기">×</button><span class="eyebrow">ABOUT THIS EXPERIENCE</span><h2>선택이 길이 되는 순간.</h2><p>시선은 삶의 기록과 나의 목표, 의료진의 판단을 하나의 선으로 이어 가는 서비스입니다.</p><p>지금 보시는 공간은 가상의 선택 시나리오입니다. 빛과 색은 고른 목표와의 연결을 표현하며, 실제 건강 상태나 의료 예측을 나타내지 않습니다.</p><p>선택은 이 화면 안에만 남습니다. 의료진에게 전송되지는 않습니다.</p><button id="reduce-motion" class="dialog-action">움직임 줄이기</button></dialog>
+<noscript><div class="no-script">이 데모를 보려면 JavaScript를 켜 주세요.</div></noscript>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
