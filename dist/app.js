@@ -61,7 +61,7 @@ function render(){
   setCopy('YOUR LIFE, CONTINUED','삶의 선을 잇고,<br><span class="soft">더 나은 내일을</span><br>보다.','선택은 사라지지 않습니다.<br>다음의 나를 이해하는 맥락이 됩니다.');setPhase(2);note('');$('journey').hidden=false;
   const list=$('history');list.replaceChildren();const start=Math.max(0,state.history.length-4);state.history.slice(start).forEach((entry,k)=>{const i=start+k;const li=document.createElement('li');li.textContent=entry.title;const small=document.createElement('small');small.textContent=i===0?'나의 목표':`이어진 선택 ${i}`;li.append(small);list.append(li);});
   $('journey').querySelector('.journey-header span').textContent=start>0?`앞선 ${start}개의 기록과 연결`:'선택은 이어집니다';
-  $('save-question').hidden=state.question;$('saved-question').hidden=!state.questions.length;
+  $('save-question').hidden=state.questions.length>0;$('saved-question').hidden=!state.questions.length;
   if(state.questions.length)$('saved-question').textContent=state.questions[state.questions.length-1]+(state.questions.length>1?` · 이어진 질문 ${state.questions.length}개`:'');
  }
  scene?.setStage(state.stage,state.step);

@@ -7,3 +7,4 @@
 .brand-lockup{display:flex;align-items:center;gap:24px}.brand-origin{display:flex;align-items:center;gap:10px;padding-left:24px;border-left:1px solid #bacdd32b}.brand-origin>span{font-family:Georgia,serif;font-style:italic;font-size:11px;color:#83959f}.brand-origin img{width:100px;height:auto;display:block;opacity:.88}
 @media(max-width:600px){.brand-lockup{gap:15px}.brand-origin{gap:7px;padding-left:15px}.brand-origin img{width:83px}.header #restart{display:none}}
 @media(max-width:600px){.footer{position:relative;bottom:auto;margin-top:-65px}}
+.footer{pointer-events:none}.footer button{pointer-events:auto}
